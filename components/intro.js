@@ -4,9 +4,6 @@ export default function Intro() {
   const IMG = "/assets/blog/authors/olamide.jpg";
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10 md:mb-12">
-      {/* <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Blog.
-      </h1> */}
       <div className="flex justify-center pb-10">
         <img
           src={IMG}
@@ -21,13 +18,22 @@ export default function Intro() {
           </span>
           <br />
           <div className="flex pt-4">
-            <a className="cursor-pointer bg-black text-white rounded-full px-3 py-3  hover:bg-white hover:text-black">
+            <a
+              href="https://github.com/Sholamide"
+              className="cursor-pointer bg-black text-white border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black"
+            >
               <FaGithub />
             </a>
-            <a className="cursor-pointer bg-black text-white rounded-full px-3 py-3  hover:bg-white hover:text-black ml-4">
+            <a
+              href="https://twitter.com/lordolamider"
+              className="cursor-pointer bg-black text-white border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black ml-4"
+            >
               <FaTwitter />
             </a>
-            <a className="cursor-pointer bg-black text-white rounded-full px-3 py-3  hover:bg-white hover:text-black ml-4">
+            <a
+              href="https://www.linkedin.com/in/sholuade-olamide-148159174/"
+              className="cursor-pointer bg-black text-white rounded-full px-3 py-3 border-black border  hover:bg-white hover:text-black ml-4"
+            >
               <FaLinkedin />
             </a>
           </div>
