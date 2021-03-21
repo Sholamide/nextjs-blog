@@ -1,5 +1,6 @@
 import { CMS_NAME } from "../lib/constants";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 export default function Intro() {
   const IMG = "/assets/blog/authors/olamide.jpg";
   return (
@@ -18,24 +19,21 @@ export default function Intro() {
           </span>
           <br />
           <div className="flex pt-4">
-            <a
-              href="https://github.com/Sholamide"
-              className="cursor-pointer bg-black text-white border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/lordolamider"
-              className="cursor-pointer bg-black text-white border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black ml-4"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sholuade-olamide-148159174/"
-              className="cursor-pointer bg-black text-white rounded-full px-3 py-3 border-black border  hover:bg-white hover:text-black ml-4"
-            >
-              <FaLinkedin />
-            </a>
+            <Link href="https://github.com/Sholamide">
+              <a className="cursor-pointer bg-black dark:bg-white text-white dark:text-black border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black">
+                <FaGithub />
+              </a>
+            </Link>
+            <Link href="https://twitter.com/lordolamider">
+              <a className="cursor-pointer bg-black dark:bg-white text-white dark:text-black border rounded-full px-3 py-3 border-black  hover:bg-white hover:text-black ml-4">
+                <FaTwitter />
+              </a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/sholuade-olamide-148159174/">
+              <a className="cursor-pointer bg-black dark:bg-white text-white dark:text-black rounded-full px-3 py-3 border-black border  hover:bg-white hover:text-black ml-4">
+                <FaLinkedin />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
