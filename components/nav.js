@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className=" z-50 flex p-8 md:my-8 mx-auto bg-white dark:bg-black">
+      <nav className="flex container mx-auto items-center p-8 md:my-8 justify-between bg-white dark:bg-black">
         <button
           aria-label="Toggle Dark Mode"
           type="button"
@@ -44,7 +44,7 @@ export default function Nav() {
             </svg>
           )}
         </button>
-        <div class="flex">
+        <div className="flex">
           <Link href="https://twitter.com/lordolamider">
             <a className="mx-3 bg-black dark:bg-white hover:bg-white dark:text-black border rounded-full border-black text-white py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
               <FaTwitter />

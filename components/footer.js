@@ -14,17 +14,17 @@ export default function Footer() {
             Copyright © {new Date().getFullYear()}, all rights reserved.
             <div class="flex">
               <Link href="https://twitter.com/lordolamider">
-                <a className="mx-3 bg-black hover:bg-white hover:text-black border rounded-full border-black text-white py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
+                <a className="mx-3 bg-black dark:bg-white hover:bg-white hover:text-black border rounded-full border-black text-white dark:text-black py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
                   <FaTwitter />
                 </a>
               </Link>
               <Link href="https://github.com/Sholamide">
-                <a className="mx-3 bg-black hover:bg-white border rounded-full border-black text-white py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
+                <a className="mx-3 bg-black dark:bg-white hover:bg-white border rounded-full border-black text-white dark:text-black py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
                   <FaGithub />
                 </a>
               </Link>
               <Link href="https://www.linkedin.com/in/sholuade-olamide-148159174/">
-                <a className="mx-3 bg-black hover:bg-white border rounded-full border-black text-white py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
+                <a className="mx-3 bg-black dark:bg-white hover:bg-white border rounded-full border-black text-white dark:text-black  py-3 px-3 lg:px-3 duration-200 transition-colors lg:mb-0">
                   <FaLinkedin />
                 </a>
               </Link>
